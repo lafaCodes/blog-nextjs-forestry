@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: git@github.com:r00sn/blog-nextjs-forestry.git
+  label: Blog
+  match: "**/*"
 - type: heading
   label: Blog
 upload_dir: uploads
